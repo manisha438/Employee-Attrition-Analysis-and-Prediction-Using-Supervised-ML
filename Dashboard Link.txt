@@ -1,0 +1,35 @@
+Dashbodr link :"https://public.tableau.com/app/profile/manisha.barvey/viz/new_17109545843280/Dashboard14?publish=yes "
+
+
+1. Data Connection:
+
+    Connect Tableau to the dataset.
+
+2. Data Exploration:
+
+    Leverage Tableau's drag-and-drop interface to explore and clean the data.
+
+    creat calculation matrix like TurnoverRatate 
+      syntax: SUM(IIF([Attrition] = 'Yes', 1, 0)) / COUNTD([Employee Number]) * 100
+     
+    for job involment 
+    CASE [Job Involvement]
+          WHEN 1 THEN 'V.LOW'
+          WHEN 2 THEN 'Low'
+          WHEN 3 THEN 'High'
+          WHEN 4 THEN 'V.high'
+    END
+    this type of code i use many place two manapulate data in string or we can say more understing format 
+    
+    i also calculade average job satisfaction and performance ratings.
+3.  To calculate OverTime attrition i use OverTime field and count of attrition In donat chart 
+   same thing i do for Bussiness travel over attrition and work life balance over attrition
+
+4. i use string format job satisfaction calculation field( data convert into string format ) over turnoverRate
+Same thing happend with jobinvolvement calculation field (data convert into string format ) over TurnoverRate 
+
+5. i also use age field over TurnoverRate to identify attrition rate over age field age group of 20 is in higest attrition rate
+
+6.i try to analysis jobRole over attrition rate 
+
+
