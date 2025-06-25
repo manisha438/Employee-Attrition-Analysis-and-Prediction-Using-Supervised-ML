@@ -60,4 +60,3 @@ This project uses supervised machine learning techniques to predict whether an e
 *Upload charts or EDA visuals in an `/images` folder and link here:*
 
 ```markdown
-![Attrition by Department](images/attrition-by-department.png)
